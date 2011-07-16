@@ -1,6 +1,6 @@
 
 #contentPane{
-	background-color:#6684BA !important;
+	background-color:#2891CF !important;
 }
 /*Background*/
 #content{
@@ -25,7 +25,7 @@ background-color: #F00 !important;
 }
 /*This is the post box.*/
 .a-f-i{
-	background-color:#ADADAD !important;
+	background-color:#EAEAEA !important;
 	border-top: 3px solid #666 !important;
 }
 /*Left sidebar circle items*/
@@ -38,7 +38,7 @@ background-color: #F00 !important;
 }
 /*Hopefully this is the header bar.*/
 .a-U-T {
-	background: #7A7A7A !important;
+	background: #1A476E !important;
 	border-top: 1px solid #D2D2D2;
 }
 /*"Add a comment" box*/
@@ -60,4 +60,18 @@ background-color: #F00 !important;
 .a-f-i-Hg-Uf {
 	border-bottom: 1px solid #666666 !important;
 	border-top: 1px solid #666666 !important;
+}
+/*Below the post footer*/
+.a-f-i-Xb {
+border-top: 1px solid #E3E3E3 !important;
+}
+.ea-S-ps-pa {
+	border: 3px solid #666 !important;
+}
+/*"Stream" Header*/
+.a-b-f-U-R{
+	color: #EEEEEE !important;
+}
+.ea-g-Vc-pa-A{
+	border: 3px solid #EAEAEA !important;
 }
