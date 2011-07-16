@@ -87,5 +87,8 @@ border-top: 1px solid #E3E3E3 !important;
 	color: #EAEAEA !important;
 }
 .a-Ja-h, .a-Lc-hm , .a-j-lc-Rd-Qa-sk-da {
-	color: #35A1E1 !important;
+	color: #EAEAEA !important;
+}
+.a-la-h:hover, .a-la-h-ga:hover{
+	background-color: #666666 !important;
 }

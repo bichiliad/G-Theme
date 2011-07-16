@@ -1,3 +1,11 @@
 This is a Chrome Extension designed to provide theming for Google+.
 Right now it only has one theme. 
 Sorry.
+
+Install Notes:
+1. Save all the files from this repo in a folder somewhere. 
+2. In Chrome, go to Wrench Button>Tools>Extensions.
+3. In the top right corner, make sure "Developer Mode" is uncollapsed.
+4. Click the "Load Unpackaged Extension" button and browse to the folder with this project's files (step 1).
+5. Hit OK and enable the extension.
+6. Refresh Google+ to see it. It will be active if you see the grey star in the right side of the address bar.
