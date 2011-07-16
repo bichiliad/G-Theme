@@ -1,0 +1,105 @@
+<!--<style>
+body {
+  min-width:357px;
+  overflow-x:hidden;
+}
+
+img {
+  margin:5px;
+  border:2px solid black;
+  vertical-align:middle;
+  width:75px;
+  height:75px;
+}
+</style>
+
+<script>
+var req = new XMLHttpRequest();
+req.open(
+    "GET",
+    "http://api.flickr.com/services/rest/?" +
+        "method=flickr.photos.search&" +
+        "api_key=90485e931f687a9b9c2a66bf58a3861a&" +
+        "text=hello%20world&" +
+        "safe_search=1&" +  // 1 is "safe"
+        "content_type=1&" +  // 1 is "photos only"
+        "sort=relevance&" +  // another good one is "interestingness-desc"
+        "per_page=20",
+    true);
+req.onload = showPhotos;
+req.send(null);
+
+function showPhotos() {
+  var photos = req.responseXML.getElementsByTagName("photo");
+
+  for (var i = 0, photo; photo = photos[i]; i++) {
+    var img = document.createElement("image");
+    img.src = constructImageURL(photo);
+    document.body.appendChild(img);
+  }
+}
+
+// See: http://www.flickr.com/services/api/misc.urls.html
+function constructImageURL(photo) {
+  return "http://farm" + photo.getAttribute("farm") +
+      ".static.flickr.com/" + photo.getAttribute("server") +
+      "/" + photo.getAttribute("id") +
+      "_" + photo.getAttribute("secret") +
+      "_s.jpg";
+}
+</script>-->
+
+
+<style>
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
+
+div:first-child {
+  margin-top: 0px;
+}
+
+div {
+  cursor: pointer;
+  text-align: center;
+  padding: 1px 3px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  width: 100px;
+  margin-top: 1px;
+  background: #cccccc;
+}
+div:hover {
+  background: #aaaaaa;
+}
+#red {
+  border: 1px solid red;
+  color: red;
+}
+#blue {
+  border: 1px solid blue;
+  color: blue;
+}
+#green {
+  border: 1px solid green;
+  color: green;
+}
+#yellow {
+  border: 1px solid yellow;
+  color: yellow;
+}
+</style>
+<script>
+function click(color) {
+  chrome.tabs.executeScript(null,
+      {code:"document.body.style.backgroundColor='" + color.id + "'"});
+  window.close();
+}
+</script>
+<div onclick="click(this)" id="red">red</div>
+<div onclick="click(this)" id="blue">blue</div>
+<div onclick="click(this)" id="green">green</div>
+<div onclick="click(this)" id="yellow">yellow</div>
