@@ -1,0 +1,18 @@
+<html>
+  <head>
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
+  	<script>
+      // Called when the url of a tab changes.
+      function checkForValidUrl(tabId, changeInfo, tab) {
+        // If 'plus.google.com' is found in the tab's URL...
+        if (tab.url.indexOf('plus.google.com') > -1) {
+          // ... show the page action.
+          chrome.pageAction.show(tabId);
+        }
+      };
+
+      // Listen for any changes to the URL of any tab.
+      chrome.tabs.onUpdated.addListener(checkForValidUrl);
+    </script>
+  </head>
+</html>

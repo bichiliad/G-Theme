@@ -1,0 +1,63 @@
+
+#contentPane{
+	background-color:#6684BA !important;
+}
+/*Background*/
+#content{
+	background-color:#AAA !important;
+}
+/*Outside Content*/
+.a-p-A-xc-zb {
+	background-color: #AAA !important;
+}
+
+
+.mole_color {
+background-color: #F00 !important;
+}
+
+.a-H-Xc-p-qb{
+    background-color: #0F0 !important;
+}
+/*Turns out this is the post body text (not comment)*/
+.a-b-f-i-p-R{
+	color: #444;
+}
+/*This is the post box.*/
+.a-f-i{
+	background-color:#ADADAD !important;
+	border-top: 3px solid #666 !important;
+}
+/*Left sidebar circle items*/
+.a-la-Rb-h {
+	background: url("http://technoheads.org/g+/img/nav_ci_link_icon.png") no-repeat left !important;
+}
+/*Left sidebar circle items*/
+.a-la-GF {
+	background: url("http://technoheads.org/g+/img/nav_sp_link_icon.png") no-repeat left !important;
+}
+/*Hopefully this is the header bar.*/
+.a-U-T {
+	background: #7A7A7A !important;
+	border-top: 1px solid #D2D2D2;
+}
+/*"Add a comment" box*/
+.a-f-i-W-O {
+	background-color:#EEEEEE !important;
+}
+.a-f-i-Uf, .a-f-i-ha, .a-f-i-Hg {
+	color: #DFDFDF !important;
+}
+.a-f-i-Ad{
+	color: #DFDFDF !important;
+}
+/*This is applied to all posted photos*/
+.ea-S-rg-pa {
+	max-width: 408px !important;
+	border: 3px solid #666 !important;
+}
+/*Post footer (HRule, +1, Comment, Share, etc)*/
+.a-f-i-Hg-Uf {
+	border-bottom: 1px solid #666666 !important;
+	border-top: 1px solid #666666 !important;
+}
