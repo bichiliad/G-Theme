@@ -4,11 +4,11 @@
 }
 /*Background*/
 #content{
-	background-color:#AAA !important;
+	background-color:#414141 !important;
 }
-/*Outside Content*/
+/*Outside Content, should match Background.*/
 .a-p-A-xc-zb {
-	background-color: #AAA !important;
+	background-color: #414141 !important;
 }
 
 
@@ -70,8 +70,22 @@ border-top: 1px solid #E3E3E3 !important;
 }
 /*"Stream" Header*/
 .a-b-f-U-R{
-	color: #EEEEEE !important;
+	color: #DDD !important;
 }
 .ea-g-Vc-pa-A{
 	border: 3px solid #EAEAEA !important;
+}
+/*Most of the page text.*/
+.a-Rf-dB , .a-la-h, .a-Lc-Sr, .a-j-lc-Rd-R, .a-kh-fs-Hc-R, .a-St-R{
+	color: #EAEAEA !important;
+}
+/*timestamp*/
+.a-f-i-Ad{
+	color: #999 !important;
+}
+.roster_title{
+	color: #EAEAEA !important;
+}
+.a-Ja-h, .a-Lc-hm , .a-j-lc-Rd-Qa-sk-da {
+	color: #35A1E1 !important;
 }
