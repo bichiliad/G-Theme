@@ -4,16 +4,15 @@
 }
 /*Background*/
 #content{
-	background-color:#414141 !important;
+	background:black url("http://technoheads.org/g+/img/bg.jpg") no-repeat center top !important;
+}
+body{
+	background:black url("http://technoheads.org/g+/img/bg.jpg") no-repeat center top !important;
 }
 /*Outside Content, should match Background.*/
 .a-p-A-xc-zb {
-	background-color: #414141 !important;
-}
-
-
-.mole_color {
-background-color: #F00 !important;
+	background-color: transparent !important;
+	background-image: url("http://technoheads.org/g+/img/shade.png") !important;
 }
 
 .a-H-Xc-p-qb{
@@ -45,11 +44,8 @@ background-color: #F00 !important;
 .a-f-i-W-O {
 	background-color:#EEEEEE !important;
 }
-.a-f-i-Uf, .a-f-i-ha, .a-f-i-Hg {
-	color: #DFDFDF !important;
-}
-.a-f-i-Ad{
-	color: #DFDFDF !important;
+.a-f-i-Uf, .a-f-i-ha, .a-f-i-Hg , .a-f-i-Ad-Ub, {
+	color: #999 !important;
 }
 /*This is applied to all posted photos*/
 .ea-S-rg-pa {
@@ -63,32 +59,32 @@ background-color: #F00 !important;
 }
 /*Below the post footer*/
 .a-f-i-Xb {
-border-top: 1px solid #E3E3E3 !important;
+	border-top: 1px solid #E3E3E3 !important;
 }
 .ea-S-ps-pa {
 	border: 3px solid #666 !important;
 }
 /*"Stream" Header*/
 .a-b-f-U-R{
-	color: #DDD !important;
+	color: #FAFAFA !important;
 }
 .ea-g-Vc-pa-A{
 	border: 3px solid #EAEAEA !important;
 }
-/*Most of the page text.*/
+/*Most of the page text (Sidebar section headers, Stream/Sparks content, etc).*/
 .a-Rf-dB , .a-la-h, .a-Lc-Sr, .a-j-lc-Rd-R, .a-kh-fs-Hc-R, .a-St-R{
 	color: #EAEAEA !important;
-}
-/*timestamp*/
-.a-f-i-Ad{
-	color: #999 !important;
 }
 .roster_title{
 	color: #EAEAEA !important;
 }
+/*Timestamp annnnddd not sure what else.*/
 .a-Ja-h, .a-Lc-hm , .a-j-lc-Rd-Qa-sk-da {
-	color: #EAEAEA !important;
+	color: #999 !important;
 }
 .a-la-h:hover, .a-la-h-ga:hover{
 	background-color: #666666 !important;
+}
+.ea-S-C{
+	border: 3px solid #444 !important;
 }
