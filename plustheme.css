@@ -1,6 +1,6 @@
-
+/*This is where you share stuff. It says "Stream" at the top of the box.*/
 #contentPane{
-	background-color:#2891CF !important;
+	background-image:url("http://technoheads.org/g+/img/shade.png") !important;
 }
 /*Background*/
 #content{
@@ -26,6 +26,7 @@ body{
 .a-f-i{
 	background-color:#EAEAEA !important;
 	border-top: 3px solid #666 !important;
+	border-left: 0 !important;
 }
 /*Left sidebar circle items*/
 .a-la-Rb-h {
@@ -66,13 +67,13 @@ body{
 }
 /*"Stream" Header*/
 .a-b-f-U-R{
-	color: #FAFAFA !important;
+	color: #333333 !important;
 }
 .ea-g-Vc-pa-A{
 	border: 3px solid #EAEAEA !important;
 }
 /*Most of the page text (Sidebar section headers, Stream/Sparks content, etc).*/
-.a-Rf-dB , .a-la-h, .a-Lc-Sr, .a-j-lc-Rd-R, .a-kh-fs-Hc-R, .a-St-R{
+.a-Rf-dB , .a-la-h, .a-Lc-Sr, .a-j-lc-Rd-R, .a-kh-fs-Hc-R, .a-St-R, .a-c-ka-Sf{
 	color: #EAEAEA !important;
 }
 .roster_title{
@@ -86,5 +87,70 @@ body{
 	background-color: #666666 !important;
 }
 .ea-S-C{
-	border: 3px solid #444 !important;
+	border: 3px solid #444 !important;\
+}
+
+/*This bit is the border of the header bar (with the Google logo in it)*/
+.a-p-T, .a-U-T {
+	border-top: 3px solid #666 !important;
+}
+
+.a-b-c-Z-A{
+	width: 195px !important;
+	background-color: #transparent !important;
+	background-image: url("http://technoheads.org/g+/img/shade.png") !important;
+	border: 3px solid #EAEAEA !important;
+	padding-top: 5px !important;
+	padding-left: 5px !important;
+}
+.a-c-Ma-e {
+	padding-bottom: 20px !important;
+}
+.d-Aa-ua{
+	border-top: 3px solid #666 !important;
+}
+.a-c-z-ti, .a-b-c-Z-A{
+	margin-left: 3px !important;
+}
+
+.tk3N6e-e {
+	background
+	min-width: 186px !important;
+	border-radius: 0px !important;
+}
+
+.d-Aa-La{
+	color: #EAEAEA !important;
+	background-color:#666 !important;
+	margin-bottom: 0px !important;
+}
+.a-c-fe-qe {
+	border: 2px solid #999 !important;
+}
+.a-c-p-Mc{
+	border-left: 3px solid #666 !important;
+	border-right: 3px solid #666 !important;
+	box-shadow: 0px 0px 30px black !important;
+}
+.ea-S-Bb, .ea-S-Xj-pa, .ea-S-Ti-pa, .ea-S-Bb-qp , .ea-S-C{
+	box-shadow: 3px 3px 5px #333 !important;
+}
+.a-kh-Ae {
+	margin: 16px 0 0 10px !important;
+}
+.a-Hc-A{
+	border-top: 3px solid #666 !important;
+}
+.a-p-M-T-gi-xc {
+	border: 0px solid #EBEBEB !important;
+	border-top: 1px solid transparent !important;
+}
+.a-p-la-T, .a-p-M-T {
+	box-shadow: 0 0 20px #333 !important;
+}
+.a-p-la-T{
+	background-image: url("http://technoheads.org/g+/img/shade.png") !important;
+}
+.a-g-kmrBZe{
+	background-color: #666 !important;
 }

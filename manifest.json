@@ -1,17 +1,23 @@
 {
-  "name": "Google+ Themer",
+  "name": "Google+ Theme",
   "version": "1.0",
   "description": "Applies a different theme to Google+.",
   "background_page": "background.html",
   "page_action": {
-    "default_icon": "icon.png", 
+    "default_icon": "icon/icon_48.png", 
     "default_title": "Google+ Theme in place.",
     "default_popup": "popup.html"  
+  },
+  "icons": { 
+	"16": "icon/icon_16.png",
+    "48": "icon/icon_48.png",
+    "128": "icon/icon_128.png" 
   },
   "content_scripts": [
     {
       "matches": ["*://plus.google.com/*"],
-      "css": ["plustheme.css"]
+      "css": ["plustheme.css"],
+      "js": ["jquery.js", "content_script.js"]
     }
   ],
   "permissions": [
