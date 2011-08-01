@@ -1,8 +1,8 @@
-/*This is where you share stuff. It says "Stream" at the top of the box.*/
+/*This is where you share stuff. It says "Stream" at the top of the box.
 #contentPane{
 	background-image:url("http://technoheads.org/g+/img/shade.png") !important;
 }
-/*Background*/
+/*Background
 #content{
 	background:black url("http://technoheads.org/g+/img/bg.jpg") no-repeat center top !important;
 }
@@ -12,11 +12,11 @@ body{
 /*Outside Content, should match Background.*/
 .a-p-A-xc-zb {
 	background-color: transparent !important;
-	background-image: url("http://technoheads.org/g+/img/shade.png") !important;
+	/*background-image: url("http://technoheads.org/g+/img/shade.png") !important;*/
 }
 
 .a-H-Xc-p-qb{
-    background-color: #0F0 !important;
+    background-color: #000 !important;
 }
 /*Turns out this is the post body text (not comment)*/
 .a-b-f-i-p-R{
@@ -28,14 +28,14 @@ body{
 	border-top: 3px solid #666 !important;
 	border-left: 0 !important;
 }
-/*Left sidebar circle items*/
+/*Left sidebar circle items
 .a-la-Rb-h {
 	background: url("http://technoheads.org/g+/img/nav_ci_link_icon.png") no-repeat left !important;
-}
-/*Left sidebar circle items*/
+}*/
+/*Left sidebar circle items
 .a-la-GF {
 	background: url("http://technoheads.org/g+/img/nav_sp_link_icon.png") no-repeat left !important;
-}
+}*/
 /*Hopefully this is the header bar.*/
 .a-U-T {
 	background: #1A476E !important;
@@ -79,9 +79,9 @@ body{
 .roster_title{
 	color: #EAEAEA !important;
 }
-/*Timestamp annnnddd not sure what else.*/
-.a-Ja-h, .a-Lc-hm , .a-j-lc-Rd-Qa-sk-da {
-	color: #999 !important;
+/*Timestamp, sidetext annnnd some other stuff I'm sure.*/
+.a-Ja-h, .a-Lc-hm , .a-j-lc-Rd-Qa-sk-da, .a-kh-fs-G {
+	color: #AAA !important;
 }
 .a-la-h:hover, .a-la-h-ga:hover{
 	background-color: #666666 !important;
@@ -98,7 +98,7 @@ body{
 .a-b-c-Z-A{
 	width: 195px !important;
 	background-color: #transparent !important;
-	background-image: url("http://technoheads.org/g+/img/shade.png") !important;
+	/*background-image: url("http://technoheads.org/g+/img/shade.png") !important;*/
 	border: 3px solid #EAEAEA !important;
 	padding-top: 5px !important;
 	padding-left: 5px !important;
@@ -148,9 +148,38 @@ body{
 .a-p-la-T, .a-p-M-T {
 	box-shadow: 0 0 20px #333 !important;
 }
-.a-p-la-T{
+/*.a-p-la-T{
 	background-image: url("http://technoheads.org/g+/img/shade.png") !important;
-}
+}*/
 .a-g-kmrBZe{
 	background-color: #666 !important;
+}
+.a-H-f-ns, .a-H-f-os, .a-H-TCtr7{
+	padding-left: 20px !important;
+}
+.me_entry_status_static_text{
+	color: #EAEAEA !important;
+}
+/*Settings font*/
+.a-E-l-Vb{
+	color: #EAEAEA !important;
+}
+/*Notifications Page status background*/
+.aDyuJf {
+	background: #EAEAEA !important;
+}
+/*Notifications Page background
+.a-p-M-T{
+	background-image: url("http://technoheads.org/g+/img/shade.png") !important;
+}*/
+/*Settings page text.*/
+.Sa-E-p-T {
+	color: #EAEAEA !important;
+}
+.Sa-E-p-T a, .a-E-ec-C-h{
+	color: #BDD7FF !important;
+}
+/*Account options dialogue bottom*/
+.a-E-Cf-cf-Tx-Ed{
+	background-color: #666666 !important;
 }
